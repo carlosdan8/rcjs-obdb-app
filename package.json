@@ -1,0 +1,43 @@
+{
+  "name": "rcjs-obdb-app",
+  "version": "1.0.0",
+  "description": "A simple react js obdb app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdan8/rcjs-obdb-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosdan8/rcjs-obdb-app/issues"
+  },
+  "homepage": "https://github.com/carlosdan8/rcjs-obdb-app#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "bootswatch": "^4.6.0",
+    "css-loader": "^5.0.1",
+    "dotenv-webpack": "^6.0.0",
+    "eslint": "^7.19.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-webpack-plugin": "^2.5.0",
+    "html-webpack-plugin": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
+}
