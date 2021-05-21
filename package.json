@@ -4,7 +4,9 @@
   "description": "A simple react js obdb app",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode=development --open",
+    "start": "node main.js", 
+    "heroku-postbuild": "webpack -p", 
+    "starts": "webpack serve --mode=development --open",
     "build": "webpack --mode production"
   },
   "repository": {
